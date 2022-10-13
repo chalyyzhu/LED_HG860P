@@ -1,0 +1,8 @@
+#!/bin/bash
+
+clear
+(cd /usr/bin && curl -sLko hg680p.sh https://raw.githubusercontent.com/chalyyzhu/LED_HG860P/main/hg680p.sh && chmod +x hg680p.sh)
+(cd /usr/bin && curl -sLko led_mod.sh https://raw.githubusercontent.com/chalyyzhu/LED_HG860P/main/led_mod.sh && chmod +x led_mod.sh)
+echo " Install selesai"
+echo " ketik perintah : led_mod.sh -r"
+echo " Untuk Menyalakan LED Internet Indicator"
